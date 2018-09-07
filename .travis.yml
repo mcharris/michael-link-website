@@ -2,8 +2,8 @@ node_js:
   - "stable"
 cache: yarn
 script:
-  - npm test
-  - npm run build
+  - yarn install
+  - yarn build
 deploy:
   provider: firebase
   token:
