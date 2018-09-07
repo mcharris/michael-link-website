@@ -6,5 +6,7 @@ script:
   - yarn build
 deploy:
   provider: firebase
+  skip_cleanup: true
+  project: ./build/
   token:
     secure: cNVNib58c52W7LFFkhpqG85Ujoz9hipaCgylaYl4ymp9P/PGjCeXYs0Tc//0adyjYfgmUt6LvgC1dD5+1GmC7W7HYcDBfveVKyaww0Fc0xvWwFzJJNxRNcTS2hH9aF7GcHkd4na38cF9u020pf2KG0kcG0aF/ADvAA4bMSh70zcsfXOCf/MpQW0OEAt0rRODcNBwRKixGsqbo1gXukzqTkIVomDC+OB0ylFOfSIFhBCz3FZeZybh4UN0DSdTZcVmADbf+J82EJ+9nQj0XSrkSVdbOYvanLPdC1KVk2XK+Wj/PCrSRIc3XIfruQvI6iM2OmM8qIuzCXGbRB4rwTFED+i/bpI+IRHDSohf7lHQZ0nzXGWPD3zcoQrRumXSmd7k2JzcCBVWVhpoQOTABYFLI+oCoOdzQ1RFsos1DWje6aNnVCQNzYz9eJlDmNx00Vi3BfX/gyVMtmTt+r1s9/TVysYowpGlSx8699z8LKO0U5MexvzMxwSb76kl9pbB0LUD9r/msvpGt1HNGbESZuOm3/QVtNcUGl9LPy5qfMK8n36KDw7C2IR2olvWTgvNY2GxHuKs/3I3S69jxclBr8L0VY/ftdg/2lEVRtW5PwqEVJqsnSFSKZZT0Om3U9WCjoSywMI/sFD/jBjGLlvDYMX0QRQ1P4Bh30jWHxpmzSKcoQ0=
